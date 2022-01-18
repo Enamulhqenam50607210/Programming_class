@@ -11,5 +11,11 @@ for ($i = $size/2-1; $i >=0 ; $i--){
 for ($j = $size -1 ; $j >=$size/2; $j--){
     array_push($sub_array2,$names[$j]);
 }
-var_dump($sub_array1);
+// var_dump($sub_array1);
 // var_dump($sub_array2);
+array_push($new_array,$sub_array1);
+array_push($new_array,$sub_array2);
+
+print_r($names);
+echo "<br>";
+print_r($new_array);
